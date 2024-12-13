@@ -1,0 +1,37 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .ma {
+    @apply flex flex-col;
+  }
+  .ma .ma-top {
+    @apply border;
+  }
+  .ma .ma-bot {
+    @apply border;
+  }
+  .ma .te {
+    @apply flex items-center w-full h-full border;
+  }
+  .ma .te span {
+    @apply pl-2;
+  }
+  .ma .te span:last-child {
+    @apply pr-2;
+  }
+  .ma .te .sc {
+    @apply m-auto;
+  }
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
