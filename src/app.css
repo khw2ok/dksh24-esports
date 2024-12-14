@@ -6,32 +6,110 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .ma {
-    @apply flex flex-col;
-  }
-  .ma .ma-top {
-    @apply border;
-  }
-  .ma .ma-bot {
-    @apply border;
-  }
-  .ma .te {
-    @apply flex items-center w-full h-full border;
-  }
-  .ma .te span {
-    @apply pl-2;
-  }
-  .ma .te span:last-child {
-    @apply pr-2;
-  }
-  .ma .te .sc {
-    @apply m-auto;
-  }
-}
-
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 * {
   font-family: "Noto Sans KR", sans-serif;
+}
+*:not(span,a,h1,h2,select,option,table,tr,th,td,thead,tbody) {
+  transition: all 100ms ease;
+}
+
+::selection {
+  @apply bg-red-600 bg-opacity-30 dark:bg-red-500;
+}
+
+tbody>tr>td {
+  @apply text-center;
+}
+tbody>tr:nth-child(odd)>th:first-child,
+tbody>tr:nth-child(odd)>td:nth-child(2),
+tbody>tr:nth-child(even)>td:first-child {
+  @apply p-1 border-r dark:border-r-neutral-700;
+}
+
+.column {
+  @apply flex flex-col justify-around min-h-full;
+}
+.match {
+  @apply relative flex flex-col h-16 my-3 mr-6 min-w-24 max-w-24;
+}
+.team-sel1 {
+  @apply !bg-red-200 dark:!bg-red-300;
+}
+.team-sel2 {
+  @apply !bg-red-100 dark:!bg-red-200;
+}
+.match .team {
+  @apply flex items-center w-full h-full bg-white border border-black dark:bg-neutral-200;
+}
+.match .team span {
+  @apply pl-2 dark:text-black;
+}
+.match .team span:last-child {
+  @apply pr-2;
+}
+.match .team .score {
+  @apply ml-auto;
+}
+.match .team:first-child {
+  margin-bottom: -1px;
+}
+.match-lines {
+  @apply absolute bottom-0 mt-0 top-1/2;
+  right: -1px;
+}
+.line1 {
+  @apply bg-neutral-400;
+  position: absolute;
+  height: 1px;
+  width: 12px;
+}
+.line2-down {
+  @apply bg-neutral-400;
+  position: absolute;
+  height: 44px;
+  width: 1px;
+  left: 11px;
+}
+.line2-up {
+  @apply bg-neutral-400;
+  position: absolute;
+  height: 44px;
+  width: 1px;
+  left: 11px;
+  transform: translate(0, -100%);
+}
+.line3 {
+  @apply bg-neutral-400;
+  height: 1px;
+}
+.match-lines.alt {
+  left: -12px;
+}
+
+.column:first-child .match-lines.alt {
+  display: none;
+}
+.column:last-child .match-lines {
+  display: none;
+}
+.column:last-child .match-lines.alt {
+  display: block;
+}
+.column:nth-child(2) .match-lines .line2-up,
+.column:nth-child(2) .match-lines .line2-down {
+  height: 88px;
+}
+.column:nth-child(3) .match-lines .line2-up,
+.column:nth-child(3) .match-lines .line2-down {
+  height: 175px;
+}
+.column:nth-child(4) .match-lines .line2-up,
+.column:nth-child(4) .match-lines .line2-down {
+  height: 262px;
+}
+.column:nth-child(5) .match-lines .line2-up,
+.column:nth-child(5) .match-lines .line2-down {
+  height: 349px;
 }
