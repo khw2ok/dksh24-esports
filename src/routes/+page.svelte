@@ -27,7 +27,7 @@
   <div class="flex justify-between">
     <div class="flex items-center gap-x-1">
       <!-- <img src="favicon.png" alt="" style="height: 25px;"> -->
-      <span class="font-light text-neutral-500 dark:text-neutral-300">Managed by <a class="underline hover:text-red-500 dark:hover:text-red-300" href="https://github.com/khw2ok">@khw2ok</a> (10308 김형욱)</span>
+      <span class="font-light text-neutral-500 dark:text-neutral-300">Managed by <a class="underline hover:text-red-500 dark:hover:text-red-300" href="https://github.com/khw2ok/dksh24-esports">@khw2ok</a> (10308 김형욱)</span>
     </div>
     <button class="p-1 opacity-75" on:click={toggleTheme}>
       <svg class="block dark:hidden" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
