@@ -11,14 +11,5 @@ export default {
 
   plugins: [],
 
-  darkMode: 'selector',
-  kit: {
-    adapter: adapter({
-      pages: 'build',
-      assets: 'build',
-			fallback: undefined,
-			precompress: false,
-			strict: true
-    })
-  }
+  darkMode: 'selector'
 } satisfies Config;
