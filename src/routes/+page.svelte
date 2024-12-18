@@ -1,33 +1,7 @@
-<!--
-<header class="p-2 border-b">
-  <div class="flex justify-between p-1 mx-auto" style="max-width: 800px;">
-    <a href="?">DKSH24 eSports Tournaments Official</a>
-    <span>By @khw2ok (10308 김형욱)</span>
-  </div>
-</header>
-
-<div class="p-2 border-b">
-  <div class="flex justify-between mx-auto" style="max-width: 800px;">
-    <button>홈</button>
-    <button class="">계정</button>
-  </div>
-</div>
-
-<div class="absolute w-full h-full -z-10 bg-neutral-50"></div>
-
-<div class="mb-4 sm:mb-6"></div> -->
-
 <script>
   function toggleTheme() {
     document.body.classList.toggle("dark")
   }
-
-  // window.onload = function() {
-  //   updateData();
-  // };
-  // function updateData() {
-  //   return;
-  // }
 </script>
 
 <header class="p-4 mx-auto" style="max-width: 800px;">
@@ -57,22 +31,7 @@
     <span class="text-center text-neutral-500 dark:text-neutral-300">리그오브레전드</span>
     <div class="flex w-40 p-3 border rounded-md justify-self-center dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800">
       <div class="grid items-center basis-1/4">
-        <span class="text-xl font-medium">1-5</span>
-        <span>0</span>
-      </div>
-      <div class="grid items-center text-center basis-1/2">
-        <span class="text-xl">vs</span>
-      </div>
-      <div class="grid items-center basis-1/4 text-end">
-        <span class="text-xl font-medium">2-4</span>
-        <span>0</span>
-      </div>
-    </div>
-    <div class="mb-2"></div>
-    <span class="text-center text-neutral-500 dark:text-neutral-300">발로란트</span>
-    <div class="flex w-40 p-3 border rounded-md justify-self-center dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800">
-      <div class="grid items-center basis-1/4">
-        <span class="text-xl font-medium">2-1</span>
+        <span class="text-xl font-medium">1-3</span>
         <span>0</span>
       </div>
       <div class="grid items-center text-center basis-1/2">
@@ -80,6 +39,21 @@
       </div>
       <div class="grid items-center basis-1/4 text-end">
         <span class="text-xl font-medium">1-1</span>
+        <span>0</span>
+      </div>
+    </div>
+    <div class="mb-2"></div>
+    <span class="text-center text-neutral-500 dark:text-neutral-300">발로란트</span>
+    <div class="flex w-40 p-3 border rounded-md justify-self-center dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800">
+      <div class="grid items-center basis-1/4">
+        <span class="text-xl font-medium">2-5</span>
+        <span>0</span>
+      </div>
+      <div class="grid items-center text-center basis-1/2">
+        <span class="text-xl">vs</span>
+      </div>
+      <div class="grid items-center basis-1/4 text-end">
+        <span class="text-xl font-medium">2-2</span>
         <span>0</span>
       </div>
     </div>
@@ -179,11 +153,11 @@
       <!-- two start -->
       <div class="column" style="padding-top: 35px; padding-bottom: 3px;">
         <div class="match">
-          <div class="team">
+          <div class="team team-sel1">
             <span class="name">1-3</span>
             <span class="score">0</span>
           </div>
-          <div class="team">
+          <div class="team team-sel1">
             <span class="name">1-1</span>
             <span class="score">0</span>
           </div>
@@ -210,13 +184,13 @@
           </div>
         </div>
         <div class="match">
-          <div class="team team-sel1">
+          <div class="team">
             <span class="name">1-5</span>
-            <span class="score">0</span>
+            <span class="score">5</span>
           </div>
-          <div class="team team-sel1">
+          <div class="team">
             <span class="name">2-4</span>
-            <span class="score">0</span>
+            <span class="score">15</span>
           </div>
           <div class="match-lines">
             <div class="line1"></div>
@@ -244,9 +218,9 @@
             <span class="name">2-2</span>
             <span class="score">0</span>
           </div>
-          <div class="team team-sel2">
-            <span class="name"></span>
-            <span class="score"></span>
+          <div class="team">
+            <span class="name">2-4</span>
+            <span class="score">0</span>
           </div>
           <div class="match-lines">
             <div class="line1"></div>
@@ -260,7 +234,7 @@
       <!-- four start -->
       <div class="column">
       <div class="match">
-        <div class="team">
+        <div class="team team-sel2">
           <span class="name"></span>
           <span class="score"></span>
         </div>
@@ -378,11 +352,11 @@
       <!-- two start -->
       <div class="column">
         <div class="match">
-          <div class="team team-sel1">
-            <span class="name">2-1</span>
+          <div class="team">
+            <span class="name">2-4</span>
             <span class="score">0</span>
           </div>
-          <div class="team team-sel1">
+          <div class="team">
             <span class="name">1-1</span>
             <span class="score">0</span>
           </div>
@@ -397,11 +371,11 @@
         <div class="match">
           <div class="team">
             <span class="name">2-5</span>
-            <span class="score">0</span>
+            <span class="score">9</span>
           </div>
           <div class="team">
             <span class="name">2-2</span>
-            <span class="score">0</span>
+            <span class="score">13</span>
           </div>
           <div class="match-lines">
             <div class="line1"></div>
@@ -415,13 +389,13 @@
       <!-- three start -->
       <div class="column">
         <div class="match">
-          <div class="team team-sel2">
+          <div class="team team-sel1">
             <span class="name"></span>
             <span class="score"></span>
           </div>
-          <div class="team">
-            <span class="name"></span>
-            <span class="score"></span>
+          <div class="team team-sel1">
+            <span class="name">2-2</span>
+            <span class="score">0</span>
           </div>
           <div class="match-lines">
             <div class="line1"></div>
@@ -435,7 +409,7 @@
       <!-- four start -->
       <div class="column">
         <div class="match !h-8">
-          <div class="team">
+          <div class="team team-sel2">
             <span class="name"></span>
             <span class="score"></span>
           </div>
@@ -498,23 +472,23 @@
         <tr>
           <th rowspan="2">12/18 (수)</th>
           <td>오전</td>
-          <td>1-5 vs 2-4</td>
+          <td>연기됨</td>
           <td>2-4 vs 1-1</td>
         </tr>
         <tr>
           <td>오후</td>
-          <td>1-3 vs 1-1</td>
+          <td>1-5 vs 2-4</td>
           <td>2-5 vs 2-2</td>
         </tr>
         <tr>
           <th rowspan="2">12/19 (목)</th>
           <td>오전</td>
-          <td></td>
-          <td></td>
+          <td>1-3 vs 1-1</td>
+          <td>vs 2-2</td>
         </tr>
         <tr>
           <td>오후</td>
-          <td></td>
+          <td>2-2 vs 2-4</td>
           <td></td>
         </tr>
       </tbody>
