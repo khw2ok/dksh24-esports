@@ -20,7 +20,7 @@
 <div class="px-4 pb-4 mx-auto text-sm font-light bg-white sm:p-4 dark:text-white dark:bg-neutral-950 sm:text-base" style="max-width: 800px;">
   <div class="grid gap-y-2">
     <h1 class="text-4xl font-bold">DKSH24 eSports Information</h1>
-    <span class="text-lg text-neutral-500 dark:text-neutral-300">Last modified on December 17, 2024</span>
+    <span class="text-lg text-neutral-500 dark:text-neutral-300">Last modified on December 19, 2024</span>
   </div>
   <hr class="my-3 border-b dark:border-b-neutral-950">
   <div class="grid gap-y-2">
