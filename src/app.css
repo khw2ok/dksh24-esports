@@ -2,11 +2,11 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 * {
   font-family: "Noto Sans KR", sans-serif;
@@ -22,9 +22,13 @@
 tbody>tr>td {
   @apply text-center;
 }
-tbody>tr:nth-child(odd)>th:first-child,
-tbody>tr:nth-child(odd)>td:nth-child(2),
-tbody>tr:nth-child(even)>td:first-child {
+table#time>tbody>tr:nth-child(odd)>th:first-child,
+table#time>tbody>tr:nth-child(odd)>td:nth-child(2),
+table#time>tbody>tr:nth-child(even)>td:first-child {
+  @apply p-1 border-r dark:border-r-neutral-700;
+}
+table#cal>tbody>tr>*:first-child,
+table#cal>tbody>tr>*:nth-child(2) {
   @apply p-1 border-r dark:border-r-neutral-700;
 }
 
