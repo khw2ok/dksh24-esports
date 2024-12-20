@@ -46,7 +46,7 @@
         <span class="text-xl">vs</span>
       </div>
       <div class="grid items-center basis-1/4 text-end">
-        <span class="text-xl font-medium">1-1</span>
+        <span class="text-xl font-medium">2-4</span>
         <span>0</span>
       </div>
     </div>
@@ -205,13 +205,13 @@
       <!-- two start -->
       <div class="column" style="padding-top: 35px; padding-bottom: 3px;">
         <div class="match">
-          <div class="team team-sel1">
+          <div class="team">
             <span class="name">1-3</span>
-            <span class="score">0</span>
+            <span class="score"></span>
           </div>
-          <div class="team team-sel1">
+          <div class="team">
             <span class="name">1-1</span>
-            <span class="score">0</span>
+            <span class="score"></span>
           </div>
           <div class="match-lines">
             <div class="line1"></div>
@@ -286,12 +286,12 @@
       <!-- four start -->
       <div class="column">
       <div class="match">
-        <div class="team team-sel2">
-          <span class="name"></span>
+        <div class="team team-sel1">
+          <span class="name">1-3</span>
           <span class="score"></span>
         </div>
-        <div class="team">
-          <span class="name"></span>
+        <div class="team team-sel1">
+          <span class="name">2-4</span>
           <span class="score"></span>
         </div>
         <div class="match-lines">
@@ -306,7 +306,7 @@
       <!-- five start -->
       <div class="column">
         <div class="match !h-8">
-          <div class="team">
+          <div class="team team-sel2">
             <span class="name"></span>
             <span class="score"></span>
           </div>
