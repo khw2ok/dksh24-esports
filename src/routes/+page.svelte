@@ -20,19 +20,21 @@
 <div class="px-4 pb-4 mx-auto text-sm font-light bg-white sm:p-4 dark:text-white dark:bg-neutral-950 sm:text-base" style="max-width: 800px;">
   <div class="grid gap-y-2">
     <h1 class="text-4xl font-bold">DKSH24 eSports Information</h1>
-    <span class="text-lg text-neutral-500 dark:text-neutral-300">Last modified on December 20, 2024</span>
+    <span class="text-lg text-neutral-500 dark:text-neutral-300">Last modified on December 21, 2024</span>
   </div>
   <hr class="my-3 border-b dark:border-b-neutral-950">
-  <div class="grid gap-y-2">
+  <div class="grid gap-y-1">
     <span class="text-lg">이 곳은 단대소고 2024 e스포츠 대회 정보 사이트입니다.</span>
+    <span class="text-lg">2학년 4반의 승리로 대회가 종료되었습니다.</span>
   </div>
   <div class="mb-3"></div>
   <div class="flex justify-center">
-    <a class="flex p-2 border rounded-md gap-x-2 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800" href="https://www.youtube.com/@%EB%8B%A8%EB%8C%80%EC%86%8C%EA%B3%A0/streams">
+    <!-- <a class="flex p-2 border rounded-md gap-x-2 dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800" href="https://www.youtube.com/@%EB%8B%A8%EB%8C%80%EC%86%8C%EA%B3%A0/streams">
       <svg class="block dark:hidden" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h480q33 0 56.5 23.5T720-720v180l160-160v440L720-420v180q0 33-23.5 56.5T640-160H160Z"/></svg>
       <svg class="hidden dark:block" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h480q33 0 56.5 23.5T720-720v180l160-160v440L720-420v180q0 33-23.5 56.5T640-160H160Z"/></svg>
       중계 보러가기
-    </a>
+    </a> -->
+    <iframe class="rounded-lg" width="560" height="315" src="https://www.youtube.com/embed/ZfPA78vbPRk?si=a9Lf_prFvw5u68fO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="mb-3"></div>
   <div class="grid justify-center gap-y-1">
@@ -40,14 +42,14 @@
     <div class="flex w-40 p-3 border rounded-md justify-self-center dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800">
       <div class="grid items-center basis-1/4">
         <span class="text-xl font-medium">1-3</span>
-        <span>0</span>
+        <span>10</span>
       </div>
       <div class="grid items-center text-center basis-1/2">
         <span class="text-xl">vs</span>
       </div>
       <div class="grid items-center basis-1/4 text-end">
         <span class="text-xl font-medium">2-4</span>
-        <span>0</span>
+        <span>26</span>
       </div>
     </div>
     <div class="mb-2"></div>
@@ -55,14 +57,14 @@
     <div class="flex w-40 p-3 border rounded-md justify-self-center dark:border-neutral-700 bg-neutral-50 dark:bg-neutral-800">
       <div class="grid items-center basis-1/4">
         <span class="text-xl font-medium">2-4</span>
-        <span>0</span>
+        <span>13</span>
       </div>
       <div class="grid items-center text-center basis-1/2">
         <span class="text-xl">vs</span>
       </div>
       <div class="grid items-center basis-1/4 text-end">
         <span class="text-xl font-medium">2-2</span>
-        <span>0</span>
+        <span>7</span>
       </div>
     </div>
   </div>
@@ -89,7 +91,7 @@
         </tr>
         <tr>
           <th>12:10 ~ 13:00</th>
-          <td>리그오브레전드 결승전<br>( vs )</td>
+          <td>리그오브레전드 결승전<br>(1-3 vs 2-4)</td>
           <td>김성민T, 김예준</td>
         </tr>
         <tr>
@@ -288,11 +290,11 @@
       <div class="match">
         <div class="team team-sel1">
           <span class="name">1-3</span>
-          <span class="score"></span>
+          <span class="score">10</span>
         </div>
         <div class="team team-sel1">
           <span class="name">2-4</span>
-          <span class="score"></span>
+          <span class="score">26</span>
         </div>
         <div class="match-lines">
           <div class="line1"></div>
@@ -307,7 +309,7 @@
       <div class="column">
         <div class="match !h-8">
           <div class="team team-sel2">
-            <span class="name"></span>
+            <span class="name">2-4</span>
             <span class="score"></span>
           </div>
           <div class="match-lines">
@@ -443,11 +445,11 @@
         <div class="match">
           <div class="team team-sel1">
             <span class="name">2-4</span>
-            <span class="score">0</span>
+            <span class="score">13</span>
           </div>
           <div class="team team-sel1">
             <span class="name">2-2</span>
-            <span class="score">0</span>
+            <span class="score">7</span>
           </div>
           <div class="match-lines">
             <div class="line1"></div>
@@ -462,7 +464,7 @@
       <div class="column">
         <div class="match !h-8">
           <div class="team team-sel2">
-            <span class="name"></span>
+            <span class="name">2-4</span>
             <span class="score"></span>
           </div>
           <div class="match-lines">
@@ -551,7 +553,7 @@
         </tr>
         <tr>
           <td>오후</td>
-          <td></td>
+          <td>1-3 vs 2-4</td>
           <td>2-2 vs 2-4</td>
         </tr>
       </tbody>
